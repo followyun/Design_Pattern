@@ -1,3 +1,4 @@
+package my;
 
 public class TeacherObserver implements BaseObserver {
     @Override

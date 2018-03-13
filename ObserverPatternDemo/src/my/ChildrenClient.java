@@ -1,3 +1,5 @@
+package my;
+
 /**
  */
 public class ChildrenClient extends Subject implements BaseClient {

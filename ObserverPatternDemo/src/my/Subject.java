@@ -1,3 +1,5 @@
+package my;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,9 +28,12 @@ public class Subject {
      * @param client
      */
     public void observeClient(BaseClient client){
-        if(client.isChange()){
-            System.out.println("发现客户端状态发生改变！开始通知所有观察者");
-         notifyAllObserver();
+        for(;;) {
+            if (client.isChange()) {
+                System.out.println("发现客户端状态发生改变！开始通知所有观察者");
+                notifyAllObserver();
+                break;
+            }
         }
     }
 
