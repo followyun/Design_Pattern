@@ -4,7 +4,7 @@
 
 #编译生成的目标文件
 target/
-#out/
+out/
 
 #非公开文件
 gaoyang-service/
