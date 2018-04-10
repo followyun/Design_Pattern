@@ -4,6 +4,7 @@ import my.AliPay;
 import my.ChannelCharge;
 
 /**
+ * 举例：MouseAdapter
  * 类适配器
  */
 public class ClassAdapter extends ChannelCharge implements AliPay  {

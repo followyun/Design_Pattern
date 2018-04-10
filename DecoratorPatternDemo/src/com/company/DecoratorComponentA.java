@@ -1,6 +1,7 @@
 package com.company;
 
 /**
+ * 参考java.io.FilterInputStream
  * 装饰类A
  */
 public class DecoratorComponentA extends DecoratedComponent{
